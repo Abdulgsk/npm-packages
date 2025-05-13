@@ -1,0 +1,22 @@
+{
+  "name": "@agsk/is-palindrome",
+  "version": "1.0.0",
+  "description": "This package helps you findout is the string palindrome or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulgsk/npm-packages.git"
+  },
+  "keywords": [
+    "palindrome"
+  ],
+  "author": "Abdul Gouse A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulgsk/npm-packages/issues"
+  },
+  "homepage": "https://github.com/Abdulgsk/npm-packages#readme"
+}
