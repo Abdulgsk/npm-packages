@@ -1,0 +1,44 @@
+{
+  "name": "create-express-mongo-server",
+  "version": "1.0.1",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulgsk/npm-packages.git"
+  },
+  "description": "CLI to scaffold an Express.js + MongoDB backend with optional CORS and Nodemon support.",
+  "keywords": [
+    "express",
+    "mongodb",
+    "backend",
+    "cli",
+    "scaffold",
+    "generator",
+    "nodemon",
+    "cors",
+    "boilerplate",
+    "create-express-backend",
+    "create-express-mongo",
+    "create-express-mongo-server",
+    "create-express-api",
+    "create-express-setup"
+  ],
+  "author": "Abdul Gouse A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulgsk/npm-packages/issues"
+  },
+  "homepage": "https://github.com/Abdulgsk/npm-packages#readme",
+  "bin": {
+    "create-express-backend": "bin/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.6.1"
+  }
+}
