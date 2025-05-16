@@ -1,6 +1,6 @@
 {
   "name": "create-express-mongo-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -33,8 +33,8 @@
   },
   "homepage": "https://github.com/Abdulgsk/npm-packages#readme",
   "bin": {
-    "create-express-backend": "bin/index.js"
-  },
+  "create-express-mongo-server": "bin/index.js"
+},
   "type": "module",
   "dependencies": {
     "chalk": "^5.4.1",

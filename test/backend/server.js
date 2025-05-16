@@ -20,8 +20,8 @@ app.use(cors());
 // Routes
 app.get('/', (req, res) => {
   res.send('API is running...');
-});
-
+  });
+  
 app.use('/api/users', userRoutes);
 
 // Start server
@@ -36,11 +36,12 @@ process.on('SIGINT', async () => {
   server.close(() => {
     console.log('✅ MongoDB connection closed. Server stopped.');
     process.exit(0);
-  });
-});
+    });
+    });
 
-// Catch unhandled promise rejections
-process.on('unhandledRejection', (err) => {
-  console.error('Unhandled Promise Rejection:', err);
-  process.exit(1);
-});
+    // Catch unhandled promise rejections
+    process.on('unhandledRejection', (err) => {
+      console.error('Unhandled Promise Rejection:', err);
+      process.exit(1);
+      });
+      
