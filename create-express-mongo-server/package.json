@@ -34,11 +34,14 @@
   "homepage": "https://github.com/Abdulgsk/npm-packages#readme",
   "bin": {
   "create-express-mongo-server": "bin/index.js"
-},
+ },
   "type": "module",
   "dependencies": {
     "chalk": "^5.4.1",
+    "dotenv": "^16.5.0",
     "fs-extra": "^11.3.0",
-    "inquirer": "^12.6.1"
+    "inquirer": "^12.6.3",
+    "mongoose": "^0.0.1-security"
   }
 }
+
