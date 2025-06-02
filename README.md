@@ -120,7 +120,7 @@ Creating NPM packages isn't just about writing code—it's about building tools 
 
 - 📧 **Email**: abdul29112004@gmail.com
 - 🐙 **GitHub**: [@Abdulgsk](https://github.com/Abdulgsk)
-- 💼 **LinkedIn**: [Abdul Gouse Syeedy A](www.linkedin.com/in/abdul-gouse-syeedy-000027277)
+- 💼 **LinkedIn**: www.linkedin.com/in/abdul-gouse-syeedy-000027277
 
 ---
 
