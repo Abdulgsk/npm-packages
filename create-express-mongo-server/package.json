@@ -1,17 +1,20 @@
 {
-  "name": "create-express-mongo-server",
-  "version": "1.0.2",
+  "name": "backend-studio",
+  "version": "2.0.0",
   "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bin/index.js",
+    "publish-pkg": "npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Abdulgsk/npm-packages.git"
   },
-  "description": "CLI to scaffold an Express.js + MongoDB backend with optional CORS and Nodemon support.",
+  "description": "🚀 Universal CLI to scaffold Express.js & Flask backends with MongoDB, PostgreSQL, MySQL, SQLite support. Features TypeScript, CORS, Nodemon, and virtual environments.",
   "keywords": [
     "express",
+    "flask",
     "mongodb",
     "backend",
     "cli",
@@ -20,28 +23,55 @@
     "nodemon",
     "cors",
     "boilerplate",
+    "typescript",
+    "python",
+    "javascript",
+    "postgresql",
+    "mysql",
+    "sqlite",
     "create-express-backend",
+    "create-flask-backend",
     "create-express-mongo",
     "create-express-mongo-server",
     "create-express-api",
-    "create-express-setup"
+    "create-flask-api",
+    "backend-generator",
+    "full-stack",
+    "web-development"
   ],
-  "author": "Abdul Gouse A",
-  "license": "ISC",
+  "author": {
+    "name": "Abdul Gouse A",
+    "email": "abdul29112004@gmail.com",
+    "url": "https://github.com/Abdulgsk"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Abdulgsk/npm-packages/issues"
   },
   "homepage": "https://github.com/Abdulgsk/npm-packages#readme",
   "bin": {
-  "create-express-mongo-server": "bin/index.js"
- },
+    "backend-studio": "bin/index.js"
+  },
   "type": "module",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
   "dependencies": {
+    "@inquirer/prompts": "^7.5.3",
     "chalk": "^5.4.1",
     "dotenv": "^16.5.0",
     "fs-extra": "^11.3.0",
-    "inquirer": "^12.6.3",
-    "mongoose": "^0.0.1-security"
-  }
+    "inquirer": "^12.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "files": [
+    "bin/",
+    "templates/",
+    "README.md",
+    "LICENSE"
+  ]
 }
-

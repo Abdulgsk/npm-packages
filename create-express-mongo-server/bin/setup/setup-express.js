@@ -57,13 +57,13 @@ async function setup() {
       name: "dbChoice",
       message: "Choose database option:",
       choices: [
+        { name: "No database", value: "none" },
         { name: "MongoDB (with Mongoose)", value: "mongodb" },
         { name: "PostgreSQL (with Sequelize)", value: "postgresql" },
         { name: "MySQL (with Sequelize)", value: "mysql" },
         { name: "SQLite (with Sequelize, file-based)", value: "sqlite" },
-        { name: "No database", value: "none" },
       ],
-      default: "mongodb",
+      default: "none",
     },
     {
       type: "input",
