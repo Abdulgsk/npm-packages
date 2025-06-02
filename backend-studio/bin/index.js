@@ -108,7 +108,7 @@ async function init() {
             startCommand = "node server.js"; // Assuming server.js is the entry point
             mainEntry = "server.js";
             await fs.copyFile(
-                path.join(__dirname, "setup", "setup-express.js"), // Corrected source path: now includes 'setup' subdirectory
+                path.join(__dirname, "..","setup", "setup-express.js"), // Corrected source path: now includes 'setup' subdirectory
                 path.join(targetDir, ".scripts", "setup-express.js") // Destination: directly in .scripts folder
             );
         } else if (backendChoice === "Flask") {
@@ -117,7 +117,7 @@ async function init() {
             mainEntry = "app.py"; // Flask projects typically have an app.py
             // packageType will be set to "module" initially, and then removed by setup-flask.js
             await fs.copyFile(
-                path.join(__dirname, "setup", "setup-flask.js"), // Corrected source path: now includes 'setup' subdirectory
+                path.join(__dirname, "..","setup", "setup-flask.js"), // Corrected source path: now includes 'setup' subdirectory
                 path.join(targetDir, ".scripts", "setup-flask.js") // Destination: directly in .scripts folder
             );
         } else {
