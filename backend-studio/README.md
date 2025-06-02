@@ -258,7 +258,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Abdul Gouse A**
 - GitHub: [@Abdulgsk](https://github.com/Abdulgsk)
-- Email: your-email@example.com
+- Email: abdul29112004@example.com
 
 ---
 
